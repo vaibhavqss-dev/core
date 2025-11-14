@@ -7,9 +7,9 @@
 [submodule "Worker"]
 	path = Worker
 	url = https://github.com/BharatSeva/Worker.git
-[submodule "Client-Interface"]
-	path = Client-Interface
-	url = https://github.com/BharatSeva/Client-Interface.git
 [submodule "healthcare-interface"]
 	path = healthcare-interface
 	url = https://github.com/BharatSeva/HealthCare-Interface.git
+[submodule "Client-Interface"]
+	path = Client-Interface
+	url = https://github.com/BharatSeva/Client-Interface.git

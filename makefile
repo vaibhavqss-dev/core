@@ -5,7 +5,7 @@ RED :=   "\e[1;31m%s\e[0m\n"
 
 # Initialize git submodules
 
-init: init-submodules update-submodule start
+init: update-submodule start
 
 init-submodules:
 	@git submodule update --init --recursive
