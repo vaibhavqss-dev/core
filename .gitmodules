@@ -4,12 +4,12 @@
 [submodule "Client-Server"]
 	path = Client-Server
 	url = https://github.com/BharatSeva/Client-Server.git
-[submodule "Worker"]
-	path = Worker
-	url = https://github.com/vaibhavqss-dev/Worker.git
 [submodule "healthcare-interface"]
 	path = healthcare-interface
 	url = https://github.com/BharatSeva/HealthCare-Interface.git
 [submodule "Client-Interface"]
 	path = Client-Interface
 	url = https://github.com/BharatSeva/Client-Interface.git
+[submodule "Worker"]
+	path = Worker
+	url = https://github.com/vaibhavqss-dev/Worker.git
