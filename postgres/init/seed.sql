@@ -37,7 +37,7 @@ INSERT INTO HIP_TABLE (
 ) VALUES (
     'GuestUser-001',
     'GuestUser-001',
-    'GuestUser Hospital',
+    'Guest User Hospital',
     'GuestUser@example.com',
     'Yes',
     200,
@@ -144,7 +144,7 @@ INSERT INTO client_profile (
     aadhaar_number, primary_location, sibling, twin, father_name, mother_name,
     emergency_number, created_at, updated_at, country, city, state, landmark
 ) VALUES (
-    'GuestUser-001', 'Guest', NULL, 'User', 'Other', 'GuestUser-001', '2000-01-01',
+    'GuestUser-001', 'Dear', 'User', '.', 'male', 'GuestUser-001', '2000-01-01',
     'O+', '22', 'Unmarried', '65', 'guest@example.com', '0000000000',
     '0000-0000-0000', 'N/A', '0', '0', 'GuestFather', 'GuestMother',
     '0000000000', NOW(), NOW(), 'GuestCountry', 'GuestCity', 'GuestState', 'GuestLandmark'
@@ -171,7 +171,7 @@ CREATE TABLE IF NOT EXISTS "clientAuth" (
 
 INSERT INTO "clientAuth" (fullname, email, health_id, password, "createdAt", "updatedAt")
 VALUES (
-    'Guest User',
+    'Dear User',
     'guest@example.com',
     'GuestUser-001',
     '$2a$10$seIDYPYjvDR.OjYufgXmFOSGswwLDxwN8q87B/qk.508h7XSskOoW',
