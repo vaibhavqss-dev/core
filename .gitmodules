@@ -6,7 +6,7 @@
 	url = https://github.com/BharatSeva/Client-Server.git
 [submodule "Worker"]
 	path = Worker
-	url = https://github.com/BharatSeva/Worker.git
+	url = https://github.com/vaibhavqss-dev/Worker.git
 [submodule "healthcare-interface"]
 	path = healthcare-interface
 	url = https://github.com/BharatSeva/HealthCare-Interface.git
